@@ -23,7 +23,7 @@ const Navbar = () => {
           {navItems.map((items, index) => (
             <a
               key={index}
-              onClick={() => items.link === "#resume" && window.open('./src/assets/resume/CV_main.pdf', "_blank")}
+              onClick={() => items.link === "#resume" && window.open('./resume/CV_main.pdf', "_blank")}
               href={items.link}
               className="hover:text-secondary cursor-pointer"
             >
