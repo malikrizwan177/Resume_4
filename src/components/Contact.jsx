@@ -115,24 +115,24 @@ const Contact = () => {
                 <div className="grid grid-cols-2 gap-x-5 md:gap-x-10  gap-y-10">
                   <div className="flex flex-col">
                     <label htmlFor="f_name">Your First Name</label>
-                    <input type="text" name="f_name" id="f_name" value={form.value} onChange={handleChange} />
+                    <input type="text" name="f_name" id="f_name" value={form.value} onChange={handleChange} required/>
                   </div>
                   <div className="flex flex-col">
                     <label htmlFor="l_name">Your Last Name</label>
-                    <input type="text" name="l_name" id="l_name" value={form.value} onChange={handleChange} />
+                    <input type="text" name="l_name" id="l_name" value={form.value} onChange={handleChange} required/>
                   </div>
                   <div className="flex flex-col">
                     <label htmlFor="email">Email</label>
-                    <input type="email" name="email" id="email" value={form.value} onChange={handleChange} />
+                    <input type="email" name="email" id="email" value={form.value} onChange={handleChange} required/>
                   </div>
                   <div className="flex flex-col">
                     <label htmlFor="budget">Budget</label>
-                    <input type="number" name="budget" id="budget" placeholder="In $" value={form.value} onChange={handleChange} />
+                    <input type="number" name="budget" id="budget" placeholder="In $" value={form.value} onChange={handleChange} required/>
                   </div>
                 </div>
                 <div className="flex flex-col mt-10">
                   <label htmlFor="message">Message</label>
-                  <textarea name="message" id="message" rows="5" value={form.value} onChange={handleChange}></textarea>
+                  <textarea name="message" id="message" rows="5" value={form.value} onChange={handleChange} required></textarea>
                 </div>
                 <button
                   type="submit"
