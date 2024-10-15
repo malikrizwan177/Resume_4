@@ -7,9 +7,10 @@ const Services = () => {
     ]
   return (
     <section id="services" className="px-8 lg:px-32 py-10 md:py-20 bg-primary">
+        <div className="max-w-[1440px] mx-auto">
         <p className="text-[20px] text-gradient font-medium">Services I Provide</p>
         <p className="text-[40px] font-semibold">My Services</p>
-        <div className="flex flex-row flex-wrap gap-5 mt-10 text-center">
+        <div className="flex flex-row justify-center flex-wrap gap-5 mt-10 text-center">
             {services.map((item) => (
                 <div key={item.heading} className="flex flex-col items-center gap-10 rounded-lg border-secondary hover:border-none border-[1px] px-5 py-10 max-w-[280px] cursor-pointer ease-in-out duration-300 services_hover">
                     <img src={item.img} alt="service_image" className="w-[64px] h-[64px] mt-5 services_image"/>
@@ -18,6 +19,7 @@ const Services = () => {
                     <p>{item.description}</p>
                 </div>
             ))}
+        </div>
         </div>
     </section>
   )

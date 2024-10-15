@@ -8,7 +8,7 @@ const Skills = () => {
   ];
   return (
     <section className="px-8 lg:px-32 py-10 md:py-20 bg-primary-dark">
-      <div className="flex flex-col md:flex-row gap-10 justify-between items-start">
+      <div className="flex flex-col md:flex-row gap-10 justify-between items-start max-w-[1440px] mx-auto">
         <div className="flex flex-col justify-center items-start gap-5 max-w-[580px]">
           <p className="text-[20px] text-gradient font-medium">
             See All My Skills

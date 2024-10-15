@@ -1,6 +1,7 @@
 const Experience = () => {
   return (
     <section id="experience" className="px-8 lg:px-32 py-10 md:py-20 bg-primary">
+      <div className="max-w-[1440px] mx-auto">
       <p className="text-[40px] font-semibold text-center">
         My Work Experience
       </p>
@@ -48,6 +49,7 @@ const Experience = () => {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

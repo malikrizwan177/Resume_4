@@ -57,6 +57,7 @@ const Portfolio = () => {
 
   return (
     <section id="projects" className="px-8 lg:px-32 py-10 md:py-20 bg-primary-dark">
+      <div className="max-w-[1440px] mx-auto">
       <p className="text-[20px] text-gradient font-medium">Works & Portfolio</p>
       <p className="text-[40px] font-semibold">My Projects</p>
       <div className="flex flex-row flex-wrap justify-center items-center mt-10">
@@ -121,6 +122,7 @@ const Portfolio = () => {
             </>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

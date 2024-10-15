@@ -55,6 +55,7 @@ const Testimonial = () => {
   return (
     <>
       <section className="px-8 lg:px-32 py-10 md:py-20 bg-primary">
+        <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col justify-center items-start md:items-center">
           <p className="text-[20px] text-gradient font-medium">Testimonial</p>
           <p className="text-[40px] font-semibold">Awesome Clients Feedback</p>
@@ -152,6 +153,7 @@ const Testimonial = () => {
               className={`w-[50px] h-[50px] p-5 background-gradient cursor-pointer rounded-full ease-in-out duration-300 object-cover`}
             />
           </div>
+        </div>
         </div>
       </section>
       <div className="bg-primary-dark py-10 md:py-20 w-full" />

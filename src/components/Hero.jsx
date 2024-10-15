@@ -5,7 +5,8 @@ const Hero = () => {
   const textChange = ["Software Engineer", "React Developer"]
 
   return (
-    <section className="flex flex-col md:flex-row-reverse gap-10 justify-between md:justify-center items-center px-8 lg:px-32 py-20 bg-primary-dark">
+    <section className=" px-8 lg:px-32 py-20 bg-primary-dark">
+      <div className="flex flex-col md:flex-row-reverse gap-10 justify-between items-center max-w-[1440px] mx-auto">
       <img
       loading="lazy"
         src="./images/hero.png"
@@ -29,6 +30,7 @@ const Hero = () => {
             Hire me
           </button>
         </a>
+      </div>
       </div>
     </section>
   );

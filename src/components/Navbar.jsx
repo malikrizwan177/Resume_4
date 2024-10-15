@@ -7,15 +7,16 @@ const Navbar = () => {
     { name: "Services", link: "#services" },
     { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
-    { name: "Contact Me", link: "#contact" },
+    { name: "Contact", link: "#contact" },
     { name: "Resume", link: "#resume" },
   ];
   return (
     <header>
-      <nav className="flex flex-row justify-between md:justify-center items-center px-8 lg:px-32 py-5 bg-primary text-[18px] md:relative">
+      <nav className=" px-8 lg:px-32 py-5 bg-primary text-[18px]">
+        <div className="flex flex-row justify-between md:justify-start items-center gap-0 md:gap-32 lg:gap-60 mx-auto max-w-[1440px]">
         <a
           href="/"
-          className="text-secondary cursor-pointer md:absolute left-0 flex float-start md:ml-8 lg:ml-32 font-medium"
+          className="text-secondary cursor-pointer flex font-medium"
         >
           PORT<p className="text-white">folio</p>
         </a>
@@ -51,6 +52,7 @@ const Navbar = () => {
               ))}
             </div>
           )}
+        </div>
         </div>
       </nav>
     </header>

@@ -58,8 +58,9 @@ const Contact = () => {
   return (
     <>
       <footer id="contact" className="px-8 lg:px-32 py-10 md:py-20 bg-primary">
+        <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start gap-10">
-          <div className=" max-w-[350px]">
+          <div className="max-w-[350px] lg:max-w-[400px]">
             <a
               href="/"
               className="text-secondary cursor-pointer flex font-medium text-[40px]"
@@ -106,13 +107,13 @@ const Contact = () => {
               <img src="./icons/link.svg" alt="link" className="w-5 h-5" />
             </a>
           </div>
-          <div>
+          <div className="w-full max-w-[800px]">
             <p className="text-[32px] md:text-[40px] mt-10 md:mt-0">
               Let's Work Together
             </p>
             <div className="mt-10">
               <form ref={formRef} onSubmit={handleSubmit} autoComplete="off">
-                <div className="grid grid-cols-2 gap-x-5 md:gap-x-10  gap-y-10">
+                <div className="grid grid-cols-2 gap-x-5 md:gap-x-10  gap-y-10 w-full">
                   <div className="flex flex-col">
                     <label htmlFor="f_name">Your First Name</label>
                     <input type="text" name="f_name" id="f_name" value={form.value} onChange={handleChange} required/>
@@ -143,6 +144,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
+        </div>
         </div>
       </footer>
       <p className="text-[10px] md:text-[14px] bg-primary-dark py-3 w-full text-center px-5">
