@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react"
 import Navbar from "./components/Navbar"
 import { Loader } from "./components/Loader"
+import ScrollToTop from "./components/ScrollTop"
 const Hero = lazy(() => import("./components/Hero"))
 const Services = lazy(() => import("./components/Services"))
 const Skills = lazy(() => import("./components/Skills"))
@@ -11,7 +12,7 @@ const Contact = lazy(() => import("./components/Contact"))
 
 const App = () => {
   return (
-    <div className="text-white">
+    <div className="text-white h-lvh">
       <Navbar/>
       <Suspense fallback={<Loader/>}>
         <Hero/>
@@ -21,6 +22,7 @@ const App = () => {
         <Portfolio/>
         <Testimonial/>
         <Contact/>
+      <ScrollToTop/>
       </Suspense>
     </div>
   )

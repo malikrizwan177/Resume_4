@@ -16,6 +16,7 @@
 
 html {
     font-family: inter;
+    scroll-behavior: smooth;
   }
 
 .text-gradient {
