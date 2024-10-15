@@ -1,8 +1,8 @@
 const Services = () => {
     const services = [
         {img: "./icons/Graphic_Design.png", img_white: "./icons/Graphic_Design_White.png", heading: "Web Development", description: "I can make any website using React and TailwindCSS"},
-        {img: "./icons/Graphic_Design.png", img_white: "./icons/Graphic_Design_White.png", heading: "Website Customization", description: "I can customize the contents of any website If it uses React"},
-        {img: "./icons/Graphic_Design.png", img_white: "./icons/Graphic_Design_White.png", heading: "Maintenance & Deployment", description: "I can maintain and deploy and React or Next project on Vercel"},
+        {img: "./icons/Graphic_Design.png", img_white: "./icons/Graphic_Design_White.png", heading: "Website Customization", description: "I can customize the contents of any website if it uses React"},
+        {img: "./icons/Graphic_Design.png", img_white: "./icons/Graphic_Design_White.png", heading: "Maintenance & Deployment", description: "I can maintain and deploy React or Next project on Vercel"},
         {img: "./icons/Graphic_Design.png", img_white: "./icons/Graphic_Design_White.png", heading: "UI/UX Designing", description: "I can do a bit of UI/UX designing of a website on figma"},
     ]
   return (
