@@ -107,7 +107,7 @@ const Contact = () => {
               <img src="./icons/link.svg" alt="link" className="w-5 h-5" />
             </a>
           </div>
-          <div className="w-full max-w-[800px]">
+          <div className="w-full max-w-[750px]">
             <p className="text-[32px] md:text-[40px] mt-10 md:mt-0">
               Let's Work Together
             </p>
