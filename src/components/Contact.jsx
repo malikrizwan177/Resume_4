@@ -148,7 +148,7 @@ const Contact = () => {
         </div>
       </footer>
       <p className="text-[10px] md:text-[14px] bg-primary-dark py-3 w-full text-center px-5">
-        All Rights Reserved - Muhammad Rizwan Malik - Poiesis Technologies -
+        All Rights Reserved - Muhammad Rizwan Malik -
         @2024
       </p>
     </>
