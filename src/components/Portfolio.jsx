@@ -4,6 +4,13 @@ const Portfolio = () => {
   const [slide, setSlide] = useState(0);
   const projects = [
     {
+      image: "./images/resume_4.png",
+      link: "https://resume-4-typescript.vercel.app/",
+      description:
+        "The same resume made with Vite+React, TailwindCSS and Typescript instead of Javascript",
+        gitLink: "https://github.com/malikrizwan177/Resume_4_Typescript",
+    }, 
+    {
       image: "./images/resume_3.png",
       link: "https://resume-3-six.vercel.app/",
       description:
