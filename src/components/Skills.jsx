@@ -1,10 +1,10 @@
 const Skills = () => {
   const skills = [
     { name: "HTML / CSS / JavaScript / React", percentage: 75 },
+    { name: "Typescript", percentage: 50 },
     { name: "Tailwind CSS", percentage: 80 },
     { name: "Github", percentage: 50 },
     { name: "MongoDB", percentage: 40 },
-    { name: "UI/UX Designing", percentage: 30 },
   ];
   return (
     <section className="px-8 lg:px-32 py-10 md:py-20 bg-primary-dark">
