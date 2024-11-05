@@ -2,6 +2,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.compat.css"
 
 const Testimonial = () => {
   const reviews = [
@@ -60,6 +62,7 @@ const Testimonial = () => {
           <p className="text-[20px] text-gradient font-medium">Testimonial</p>
           <p className="text-[40px] font-semibold">Awesome Clients Feedback</p>
         </div>
+        <ScrollAnimation animateIn="fadeIn">
         <div className="mt-20">
           <Swiper
             direction={"horizontal"}
@@ -154,6 +157,7 @@ const Testimonial = () => {
             />
           </div>
         </div>
+        </ScrollAnimation>
         </div>
       </section>
       <div className="bg-primary-dark py-10 md:py-20 w-full" />

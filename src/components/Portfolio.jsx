@@ -1,4 +1,6 @@
 import { useState } from "react";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.compat.css"
 
 const Portfolio = () => {
   const [slide, setSlide] = useState(0);
@@ -67,6 +69,7 @@ const Portfolio = () => {
       <div className="max-w-[1440px] mx-auto">
       <p className="text-[20px] text-gradient font-medium">Works & Portfolio</p>
       <p className="text-[40px] font-semibold">My Projects</p>
+      <ScrollAnimation animateIn="fadeIn">
       <div className="flex flex-row flex-wrap justify-center items-center mt-10">
         <div className="relative ">
           {projects.map((items, index) => (
@@ -130,6 +133,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
+      </ScrollAnimation>
       </div>
     </section>
   );
